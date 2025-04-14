@@ -26,9 +26,9 @@ export default function Home() {
       <TypingPerformanceCard current={92} lastWeek={65} lastMonth={55} />
       <TimePieChart
   data={[
-    { name: 'Today', minutes: 2 },
-    { name: 'This Week', minutes: 13 },
-    { name: 'Last Week', minutes: 46 },
+    { label: 'Today', minutes: 2 },
+    { label: 'This Week', minutes: 13 },
+    { label: 'Last Week', minutes: 46 },
   ]}
 />
 
